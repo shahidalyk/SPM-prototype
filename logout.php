@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(!empty($_SESSION['login-user']))
+{
+$_SESSION['login-user']='';
+session_destroy();
+}
+header("Location:index.php");
+?>

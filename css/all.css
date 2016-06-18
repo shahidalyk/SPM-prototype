@@ -1,0 +1,118 @@
+body{
+	font-family: 'Open Sans', sans-serif; color:#888; font-weight:400;
+}
+.top-bar{
+  height: 3.5rem;
+  line-height: 3.5rem;
+  position: relative;
+  background: #333333;
+}
+
+.top-bar-section {
+  top: 10%;
+}
+.space{
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+/*-------------------------------------------------------------------------------------------------*/
+/*-----------------------------------Homepage-----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+.about-text{
+	color: white;
+}
+
+.support-text{
+	color: white;
+}
+
+.mainCenter{
+	background: ;
+}
+
+.projectButton{
+    width: 100%;
+    text-align: center;
+}
+
+.memberButton{
+    width: 100%;
+    text-align: center;
+}
+
+.mainLower{
+	background: url('../images/map.jpg') repeat;
+}
+.footerbg{
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+}
+.login-popup{
+	display:none;
+	position: absolute;
+	z-index: 9999;
+	background: white;
+}
+.bg-fade {
+    position: absolute;
+    z-index: 9998;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.login-error{
+	display: none;
+}
+.img-center{
+	margin: 0 auto;
+
+}
+/*-------------------------------------------------------------------------------------------------*/
+/*-----------------------------------Member Registration page-------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+#emailMatchSuccess{
+	display: none;
+}
+#emailMatchFailed{
+	display: none;
+}
+#passwordMatchSuccess{
+	display: none;
+}
+#passwordMatchFailed{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+/*-----------------------------------Create Project page------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+#description{
+	height: 150px;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/*-----------------------------------Dashboard----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+.dialog-height{
+	display: block;
+	max-height: 200px;
+	overflow: hidden;
+}
+.project-img{
+	height: 303px;
+	width: 303px;
+}
+/*-------------------------------------------------------------------------------------------------*/
+/*-----------------------------------Settings----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+.button-margin{
+	margin-bottom: 50px;
+}
+.head-white{
+	color: #FFFFFF;
+	text-align: center;
+}
